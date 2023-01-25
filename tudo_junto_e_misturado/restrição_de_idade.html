@@ -1,0 +1,32 @@
+//mensagem de erro caso a idade seja menor que 18 anos.
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!!!!!!18!!!!!!</title>
+    <link rel="stylesheet" href="bonitao.css" class="css">
+</head>
+<body>
+    <h1 id="title">Sistema De Verificação De idade</h1>
+    Sua idade: <input type="number" name="txtvel" id="txtvel"> anos
+    <input type="button" value="verificar" onclick="calcular()" id="input">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular(){
+            var txtv = window.document.querySelector('input#txtvel')
+            var res = window.document.querySelector('div#res')
+            var idd = Number(txtv.value)
+            
+            res.innerHTML += `<p class="idade" >A sua idade é ${idd}</p>`
+            if (idd < 18){
+            res.innerHTML += `<p class="idade">Acesso negado pela idade</p>`}
+            else 
+            res.innerHTML += `<p class="idade2"> você é maior de idade, parabens</p>`}
+        
+    </script>
+</body>
+</html>

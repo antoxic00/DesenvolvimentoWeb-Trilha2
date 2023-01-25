@@ -1,16 +1,26 @@
-@charset "UTF-8";
-body{
-    font-family: 'Times New Roman', Times, serif;
-        color: mediumaquamarine;
-        background-color: rgba(0, 116, 248, 0.973);
-        font-size: 20px;
-    }
-    h1 {
-        color: beige;
-        background-color: black;
-    }
-    h2 {
-        font-size: 20px;
-        background-color: black;
-    }
-    
+/* em HTML é ID = em CSS é #
+ em HTML é class = em CSS é . */
+
+#PRINCIPAL {
+    text-align: center;
+    color: blueviolet;
+}
+h1{
+    color: blue;
+}
+.basico {
+    background-color: lightgreen;
+    text-align: center;
+}
+.intermediario {
+    color: yellowgreen;
+}
+.avançado {
+    text-transform: center;
+    color: teal;
+}
+.css {
+    text-align: center;
+    color: blueviolet;
+    background-color: mediumvioletred;
+}
