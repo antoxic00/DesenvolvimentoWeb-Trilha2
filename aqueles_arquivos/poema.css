@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color:#e8d3a9 ;
     font-family:Helvetica;
@@ -11,4 +12,19 @@ h2{
 }
 p{
     color: #676077;
+=======
+body{
+    background-color:#e8d3a9 ;
+    font-family:Helvetica;
+    font-size: 20px;
+}
+h1{
+    color: #65ac92;
+}
+h2{
+    color: #641f5e;
+}
+p{
+    color: #676077;
+>>>>>>> 23e9545cbff02902aa74fe66cb42bb74e6ebb447
 }
