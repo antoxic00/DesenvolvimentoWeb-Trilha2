@@ -1,8 +1,10 @@
 var express = require('express');
 var app = express();
 
+app.use(express.static(__dirname + '/public'));
+
 app.get('/home', function(req, res) {
-    res.send('principal');
+    res.sendFile(__dirname + '/public/html/home.html');
 });
 
 app.get('/jovemtech/listaalunos', function(req, res) {
@@ -25,6 +27,6 @@ app.get('/jovemtech/comentarios', function(req, res) {
     res.send('comentarios');
 });
 
-app.listen(8081,function(){
-    console.log("Servidor rodando na porta http://localhost:8081/")
+app.listen(8080,function(){
+    console.log("Servidor rodando na porta http://localhost:8080/home")
 });
