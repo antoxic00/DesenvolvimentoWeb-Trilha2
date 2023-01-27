@@ -1,0 +1,13 @@
+body{
+    background-color: thistle;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+}
+.imgg{
+  display:inline-flex; 
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+}
